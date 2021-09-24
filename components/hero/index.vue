@@ -1,5 +1,7 @@
 <template>
-  <div class="hero flex-1 flex flex-col items-center justify-center">
+  <div
+    class="view-container hero h-screen flex-1 flex flex-col items-center justify-center"
+  >
     <section class="mb-7">
       <h1
         class="flex flex-col justify-center items-center md:text-4xl font-semibold text-xl"
@@ -32,7 +34,11 @@ export default {
 
 <style scoped>
 .hero {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
+
 .hero-title {
   margin-left: 32px;
 }
@@ -54,6 +60,15 @@ export default {
 
   .hero-subtitle {
     font-size: 1rem;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 </style>

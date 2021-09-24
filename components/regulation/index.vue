@@ -1,5 +1,9 @@
 <template>
-  <div class="flex-1 flex flex-col items-center justify-center">
+  <div
+    class="view-container h-screen flex-1 flex flex-col items-center justify-center"
+    data-aos="fade-up-left"
+    data-aos-duration="1200"
+  >
     <div class="container">
       <div class="p-7">
         <h1 class="text-2xl md:text-3xl font-bold">📖 대회 규정</h1>

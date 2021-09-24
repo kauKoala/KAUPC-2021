@@ -1,15 +1,9 @@
 <template>
-  <hooper :vertical="true" style="height: 100vh" :transition="+500">
-    <slide class="block md:flex">
-      <Hero />
-    </slide>
-    <slide class="block md:flex">
-      <Introduction />
-    </slide>
-    <slide class="block md:flex">
-      <Regulation />
-    </slide>
-  </hooper>
+  <div class="w-screen">
+    <Hero />
+    <Introduction />
+    <Regulation />
+  </div>
 </template>
 
 <script>
