@@ -20,7 +20,7 @@ body,
 #__nuxt,
 #__layout {
   height: 100%;
-  font-family: "Spoqa Han Sans", sans-serif;
+  font-family: "Apple SD Gothic Neo", "Spoqa Han Sans", sans-serif;
 }
 
 body::after {
