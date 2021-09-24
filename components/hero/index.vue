@@ -41,6 +41,7 @@ export default {
 
 .hero-title {
   margin-left: 32px;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media screen and (max-width: 320px) {
