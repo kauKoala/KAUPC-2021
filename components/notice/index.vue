@@ -6,7 +6,7 @@
     >
       <DateNotice />
       <QualificationNotice />
-      <RuleNotice />
+      <ApplyNotice />
     </div>
   </div>
 </template>
@@ -16,7 +16,7 @@ export default {
   components: {
     DateNotice: () => import("./dateNotice"),
     QualificationNotice: () => import("./qualificationNotice"),
-    RuleNotice: () => import("./ruleNotice")
+    ApplyNotice: () => import("./applyNotice")
   }
 };
 </script>

@@ -4,7 +4,7 @@
       <h1
         class="flex flex-col justify-center items-center md:text-4xl font-semibold text-xl"
       >
-        <p class="hero-title font-montserrat text-7xl mb-7">
+        <p class="hero-title drop-shadow-xl font-montserrat text-7xl mb-7">
           <span class="font-montserrat text-kau-main">KAU</span>PC 2021
         </p>
         <p class="hero-subtitle">제 1회 한국항공대학교 프로그래밍 경진대회</p>
@@ -46,11 +46,12 @@ export default {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 900px) {
   .hero-title {
     margin-bottom: 12px;
     margin-top: 4rem;
   }
+
   .hero-subtitle {
     font-size: 1rem;
   }

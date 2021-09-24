@@ -1,8 +1,8 @@
 @import "./nanumFont.css";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;0,800;1,600;1,700&display=swap");
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 
 * {
-  font-family: "Apple SD Gothic Neo", "NanumBarunGothic", sans-serif;
   box-sizing: border-box;
 }
 
@@ -20,6 +20,7 @@ body,
 #__nuxt,
 #__layout {
   height: 100%;
+  font-family: "Spoqa Han Sans", sans-serif;
 }
 
 body::after {

@@ -25,7 +25,10 @@ module.exports = {
     fontFamily: {
       // sandoll: ['sandoll-gongbyunggaktab', 'sans-serif'],
       // sans: ['Noto Sans KR', 'sans-serif'],
-      montserrat: ['Montserrat', 'sans-serif']
+      montserrat: ['Montserrat', 'sans-serif'],
+      nanum: ['NanumBarunGothic', "sans-serif"],
+      noto: ['Noto Sans KR', 'sans-serif'],
+      spoqa: ['Spoqa Han Sans', 'sans-serif']
     },
   },
   variants: {

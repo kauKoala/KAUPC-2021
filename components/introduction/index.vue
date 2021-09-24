@@ -16,7 +16,6 @@
           <img src="~/assets/image/competition.svg" class="competition-image" />
         </div>
       </div>
-      <div class="container-bottom-line h-2 w-full bg-kau-main"></div>
     </div>
   </div>
 </template>
