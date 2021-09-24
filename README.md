@@ -1,5 +1,7 @@
 # kaupc
 
+.
+
 ## Build Setup
 
 ```bash
