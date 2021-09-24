@@ -108,12 +108,16 @@ body::before {
 }
 
 @media screen and (max-width: 800px) {
+  .view-container {
+    margin: 2rem 0;
+  }
+
   .container {
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    height: auto;
     width: 100vw;
-    min-height: 90vh;
   }
 }
 
