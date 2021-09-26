@@ -3,6 +3,7 @@
     <Hero />
     <Introduction />
     <Regulation />
+    <Apply />
   </div>
 </template>
 
@@ -15,8 +16,7 @@ export default {
     Hero: () => import("~/components/hero"),
     Introduction: () => import("~/components/introduction"),
     Regulation: () => import("~/components/regulation"),
-    Hooper,
-    Slide
+    Apply: () => import("~/components/apply")
   }
 };
 </script>

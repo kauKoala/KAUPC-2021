@@ -56,7 +56,8 @@ body::before {
   top: 32px;
   box-shadow: 3px 3px 10px 5px #999999d0;
   width: 90vw;
-  height: 80vh;
+  min-height: 80vh;
+  height: auto;
   border-radius: 8px;
 }
 
@@ -107,7 +108,7 @@ body::before {
 
 @media screen and (max-width: 800px) {
   .view-container {
-    margin: 2rem 0;
+    margin: 1rem 0;
   }
 
   .container {
@@ -115,7 +116,9 @@ body::before {
     align-items: flex-start;
     justify-content: center;
     height: auto;
+    min-height: 90vh;
     width: 100vw;
+    border-radius: none;
   }
 }
 

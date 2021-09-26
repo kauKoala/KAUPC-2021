@@ -8,12 +8,14 @@
           src="~/assets/image/logo.svg"
           width="24"
           class="inline-block mr-2 font-bold"
-        /><span class="font-bold">제 1회 한국항공대 프로그래밍 경진대회</span>
+        /><a class="font-bold" href="/"
+          >제 1회 한국항공대 프로그래밍 경진대회</a
+        >
       </div>
       <ul class="flex space-x-10">
         <li><a href="#about">대회 안내</a></li>
-        <li>대회 규정</li>
-        <li>참가 신청</li>
+        <li><a href="#regulation">대회 규정</a></li>
+        <li><a href="#apply">참가 신청</a></li>
       </ul>
     </div>
   </header>

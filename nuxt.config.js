@@ -1,14 +1,14 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'kaupc',
+    title: '2021 한국항공대학교 프로그래밍 경진대회',
     htmlAttrs: {
       lang: 'ko'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: '제 1회 한국항공대 프로그래망 경진대회' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [

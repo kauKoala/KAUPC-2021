@@ -21,6 +21,9 @@ module.exports = {
       kau: {
         main: '#40368A'
       },
+      naver: {
+        main: '#03C75A'
+      }
     },
     fontFamily: {
       // sandoll: ['sandoll-gongbyunggaktab', 'sans-serif'],

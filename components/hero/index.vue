@@ -12,6 +12,7 @@
         <p class="hero-subtitle">제 1회 한국항공대학교 프로그래밍 경진대회</p>
       </h1>
       <BaseLine />
+      <p v-if="isMobileView">with Naver D2</p>
     </section>
     <section>
       <Notice />
@@ -28,6 +29,13 @@ export default {
     BaseLine: () => import("~/components/common/line"),
     Notice: () => import("~/components/notice"),
     Sponsor: () => import("~/components/sponsor")
+  },
+  computed: {
+    isMobileView() {
+      if (process.browser) {
+        return window.innerWidth < 800;
+      }
+    }
   }
 };
 </script>

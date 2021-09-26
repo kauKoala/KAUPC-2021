@@ -19,9 +19,9 @@
         소프트웨어학과장 명의의 상장 및 상금 20만원
       </li>
       <li class="my-2">
-        <span class="text-base md:text-lg font-semibold">특별상</span> (5팀) -
+        <span class="text-base md:text-lg font-semibold">특별상</span> (30명) -
         치킨 기프티콘,
-        <span class="naver-d2">NAVER D2</span>
+        <span class="naver-d2 text-naver-main">NAVER D2</span>
         티셔츠 및 스티커
       </li>
     </ul>
