@@ -17,14 +17,22 @@
               신분으로 제한됩니다.
             </li>
             <li class="my-4">
+              대회 상위 10명은
+              <span class="font-bold text-gray-600"
+                >경인지역 연합 프로그래밍 경시대회
+                <span class="text-blue-400 font-bold">Shake!</span></span
+              >
+              본선 진출의 기회가 주어집니다.
+            </li>
+            <li class="my-4">
               본 대회는
               <span class="text-naver-main font-nanum font-bold">Naver D2</span
-              >의 후원으로 진행되어, Naver D2에서 제공하는 네이버 채용정보 관련
-              메일링 수신에 동의해야 합니다.
+              >의 후원으로 진행되어, 경품 수령을 위해서는 Naver D2에서 제공하는
+              네이버 채용정보 관련 메일링 수신에 동의해야 합니다.
             </li>
             <li class="list-none flex justify-center my-6">
               <button
-                class="flex justify-center items-center hover:scale-105 transition-all bg-naver-main px-5 py-2 text-white rounded-md shadow-lg"
+                class="flex justify-center items-center hover:scale-105 transition-all bg-naver-main px-5 py-2 text-white rounded-md shadow-lg w-64"
               >
                 <img
                   src="~/assets/image/naver.svg"
@@ -36,12 +44,21 @@
               </button>
             </li>
             <li class="my-4">
-              대회 상위 10명은
-              <span class="font-bold text-gray-600"
-                >경인지역 연합 프로그래밍 경시대회
-                <span class="text-blue-400 font-bold">Shake!</span></span
+              참가 접수는 10월 27일(수) 자정까지 가능하며, 접수 마감기한을 넘긴
+              경우에는 대회 참여가 어려울 수 있습니다.
+            </li>
+            <li class="list-none flex justify-center my-6">
+              <button
+                class="flex justify-center items-center hover:scale-105 transition-all bg-blue-500 px-5 py-2 text-gray-50 rounded-md shadow-lg w-64"
               >
-              본선 진출의 기회가 주어집니다.
+                <img
+                  src="~/assets/image/trophy.svg"
+                  width="20"
+                  alt="Apply KAUPC 2021"
+                  class="mr-3 rounded-sm"
+                />
+                <span>KAUPC 2021 접수하기</span>
+              </button>
             </li>
           </ul>
         </section>
