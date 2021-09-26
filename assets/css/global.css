@@ -19,6 +19,7 @@ body,
 #__layout {
   height: 100%;
   font-family: "Apple SD Gothic Neo", "Spoqa Han Sans", sans-serif;
+  max-width: 100vw;
 }
 
 body::after {
@@ -118,7 +119,7 @@ body::before {
     height: auto;
     min-height: 90vh;
     width: 100vw;
-    border-radius: none;
+    border-radius: 0px;
   }
 }
 
