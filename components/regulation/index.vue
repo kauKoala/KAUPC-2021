@@ -38,10 +38,9 @@
             <li class="my-4">
               대회 전 과정은 온라인으로 진행되며, 대회 관련 문의는 페이지 하단
               채널톡 또는
-              <span class="font-bold text-kau-main"
-                >한국항공대 알고리즘 학회 : Koala</span
-              >
-              를 통해 건의할 수 있습니다.
+              <a href="https://open.kakao.com/o/gGuX4QBd"
+                >대회 운영 오픈채팅방</a
+              >을 통해 건의할 수 있습니다.
             </li>
           </ul>
         </section>

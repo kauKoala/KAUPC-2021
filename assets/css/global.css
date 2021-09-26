@@ -121,6 +121,9 @@ body::before {
     width: 100vw;
     border-radius: 0px;
   }
+  .container::before {
+    content: none;
+  }
 }
 
 .border-line-thin {
