@@ -1,70 +1,30 @@
-# kaupc
+# 2021 KAUPC
+## 제 1회 한국항공대학교 프로그래밍 경진대회 홍보 페이지
 
-.
+[홈페이지 링크](https://kaupc2021.netlify.app/)
 
-## Build Setup
+![이미지](https://user-images.githubusercontent.com/26535030/134853951-29fbdab5-00d4-4b0a-adbd-5332f6b5713d.png)
 
-```bash
-# install dependencies
-$ yarn install
+---
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+항공대 알고리즘 학회, KOALA에서 제작한 2021 KAUPC 홍보 페이지입니다.  
+`Nuxt.js` 및 `Tailwind CSS` 기반으로 제작되었습니다.
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+## 👨🏻‍💻 기여 방법
 
-# generate static project
-$ yarn generate
+### 프로젝트 클론 및 실행
+
+```
+git clone https://github.com/본인-깃허브-닉네임/KAUPC-2021.git
+yarn
+yarn dev
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## 👮‍♀️ 기여 가이드라인
 
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+- 기본적으로 어떤 종류의 PR이든 환영합니다.
+  - (Ex. 오타 및 스타일 수정, **코드 퀄리티 개선**, 미구현 기능 추가, 기타 유지보수 등)
+  
+- PR 제출 이전, 불필요한 `console.log()` 가 포함되어 있지는 않은지 확인해주세요.
+  - (이는 불필요한 정보를 출력함과 동시에 메모리 누수의 원인이 됩니다!)
+  
