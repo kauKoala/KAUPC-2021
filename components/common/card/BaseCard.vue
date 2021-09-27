@@ -6,14 +6,22 @@
     <div
       class="hidden md:flex items-center justify-end absolute h-12 w-full bottom-0 bg-kau-main text-white pr-5 font-bold"
     >
-      더 알아보기<span class="ml-2 inline-block">&#10142;</span>
+      <a :href="target" class="cursor-pointer"
+        >더 알아보기<span class="ml-2 inline-block">&#10142;</span></a
+      >
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: "BaseCard"
+  name: "BaseCard",
+  props: {
+    target: {
+      type: String,
+      default: ""
+    }
+  }
 };
 </script>
 

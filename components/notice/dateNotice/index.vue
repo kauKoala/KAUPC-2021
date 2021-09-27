@@ -1,5 +1,5 @@
 <template>
-  <Card>
+  <Card target="#about">
     <section class="p-4 md:p-8">
       <NoticeTitle title="⏰ 대회 일시" />
       <section class="font-spoqa">

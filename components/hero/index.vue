@@ -17,9 +17,7 @@
     <section>
       <Notice />
     </section>
-    <section>
-      <Sponsor />
-    </section>
+    <Sponsor />
   </div>
 </template>
 

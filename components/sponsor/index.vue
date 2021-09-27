@@ -1,10 +1,17 @@
 <template>
-  <div class="sponsor-bottom text-2xs md:text-lg flex items-center mt-12">
-    본 대회는 한국항공대학교 소프트웨어학과,
-    <img src="~/assets/image/d2.png" width="80" class="mx-2" />와
-    <a href="https://startlink.io/" target="_blank"
-      ><img src="~/assets/image/startlink.png" width="80" class="mx-2" /> </a
-    >가 후원합니다.
+  <div
+    class="sponsor-bottom text-2xs md:text-xs mt-8 flex items-center mb-4 border rounded-md border-gray-300 p-5"
+  >
+    <div>주관 : 한국항공대학교 소프트웨어학과</div>
+    <div class="flex items-center">
+      <div>후원 :</div>
+      <div class="flex">
+        <img src="~/assets/image/d2.png" width="120" height="20" class="mx-2" />
+        <a href="https://startlink.io/" target="_blank"
+          ><img src="~/assets/image/startlink.png" width="120" class="mx-2" />
+        </a>
+      </div>
+    </div>
   </div>
 </template>
 

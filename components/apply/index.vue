@@ -32,7 +32,7 @@
             </li>
             <li class="list-none flex justify-center my-6">
               <button
-                class="flex justify-center items-center hover:scale-105 transition-all bg-naver-main px-5 py-2 text-white rounded-md shadow-lg w-64"
+                class="flex justify-center items-center hover:scale-105 transition-all bg-naver-main px-5 py-2 text-white rounded-md shadow-lg w-64 lg:w-80 lg:text-lg"
               >
                 <img
                   src="~/assets/image/naver.svg"
@@ -49,7 +49,7 @@
             </li>
             <li class="list-none flex justify-center my-6">
               <button
-                class="flex justify-center items-center hover:scale-105 transition-all bg-blue-500 px-5 py-2 text-gray-50 rounded-md shadow-lg w-64"
+                class="flex justify-center items-center hover:scale-105 transition-all bg-blue-500 px-5 py-2 text-gray-50 rounded-md shadow-lg w-64 lg:w-80 lg:text-lg"
               >
                 <img
                   src="~/assets/image/trophy.svg"
@@ -71,7 +71,8 @@
 export default {
   name: "apply",
   components: {
-    Question: () => import("~/components/question")
+    Question: () => import("~/components/question"),
+    Sponsor: () => import("~/components/sponsor")
   }
 };
 </script>

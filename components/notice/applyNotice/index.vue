@@ -1,5 +1,5 @@
 <template>
-  <Card class="hover:transform-none">
+  <Card class="hover:transform-none" target="#apply">
     <section class="p-4 md:p-8">
       <NoticeTitle title="👨🏻‍💻 참가 신청" />
       <div class="flex flex-col justify-between items-center">
