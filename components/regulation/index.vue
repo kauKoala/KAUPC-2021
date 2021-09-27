@@ -7,7 +7,7 @@
   >
     <div class="container">
       <div class="p-7">
-        <h1 class="text-2xl md:text-3xl font-bold">📖 대회 규정</h1>
+        <h1 class="text-xl md:text-3xl font-bold">📖 대회 규정</h1>
         <h6 class="text-xs md:text-sm text-gray-500 mt-3 md:mt-2">
           ※ 대회 운영 및 평가와 관련된 안내입니다. 접수 전 꼭 읽어주세요!
         </h6>
