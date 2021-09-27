@@ -118,9 +118,11 @@ body::before {
     align-items: flex-start;
     justify-content: center;
     height: auto;
-    min-height: 90vh;
-    width: 100vw;
-    border-radius: 0px;
+    min-height: initial;
+    padding-bottom: 1rem;
+    margin: 0 2px;
+    /* width: 100vw; */
+    border-radius: 8px;
   }
   .container:last-child {
     margin-bottom: 64px;
