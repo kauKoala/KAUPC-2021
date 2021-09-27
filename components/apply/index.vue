@@ -1,7 +1,7 @@
 <template>
   <div
     class="view-container h-screen flex-1 flex flex-col items-center justify-center"
-    data-aos="zoom-in"
+    :data-aos="isMobile ? null : 'zoom-in'"
     data-aos-duration="1200"
     id="apply"
   >
@@ -68,11 +68,18 @@
 </template>
 
 <script>
+import checkMobileView from "~/utils/checkMobileView";
+
 export default {
   name: "apply",
   components: {
     Question: () => import("~/components/question"),
     Sponsor: () => import("~/components/sponsor")
+  },
+  computed: {
+    isMobile() {
+      return checkMobileView();
+    }
   }
 };
 </script>
