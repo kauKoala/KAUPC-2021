@@ -7,7 +7,7 @@
   >
     <div class="container">
       <div class="p-7 pb-3">
-        <h1 class="text-2xl md:text-3xl font-bold">📢 대회 접수</h1>
+        <h1 class="text-xl md:text-3xl font-bold">📢 대회 접수</h1>
         <div class="bg-kau-main border-line-thin" />
         <section class="mt-4">
           <h2 class="text-xl font-bold">✅ 참가자 유의사항</h2>
