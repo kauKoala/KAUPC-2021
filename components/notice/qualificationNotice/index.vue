@@ -1,5 +1,5 @@
 <template>
-  <Card>
+  <Card target="#regulation">
     <section class="p-4 md:p-8">
       <NoticeTitle title="✅ 참가 자격" />
       <section class="font-spoqa">

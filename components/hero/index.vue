@@ -1,6 +1,6 @@
 <template>
   <div
-    class="view-container hero h-screen flex-1 flex flex-col items-center justify-center"
+    class="view-container hero min-h-screen flex-1 flex flex-col items-center justify-center"
   >
     <section class="mb-7">
       <h1
@@ -12,14 +12,11 @@
         <p class="hero-subtitle">제 1회 한국항공대학교 프로그래밍 경진대회</p>
       </h1>
       <BaseLine />
-      <p v-if="isMobileView">with Naver D2</p>
     </section>
     <section>
       <Notice />
     </section>
-    <section>
-      <Sponsor />
-    </section>
+    <Sponsor />
   </div>
 </template>
 
