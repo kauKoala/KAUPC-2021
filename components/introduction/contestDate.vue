@@ -1,7 +1,7 @@
 <template>
   <section>
     <h3 class="text-xl font-bold mt-4">⏰ 대회 일정</h3>
-    <ul class="list-disc ml-8 mt-2 text-sm md:text-base">
+    <ul class="list-disc ml-6 md:ml-8 mt-2 text-sm md:text-base">
       <li class="my-2">
         <span class="text-base md:text-lg font-semibold">접수 마감</span> -
         2021년 10월 27일 (목요일) 자정

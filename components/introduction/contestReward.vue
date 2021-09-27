@@ -1,7 +1,7 @@
 <template>
   <section class="mt-8">
     <h3 class="text-xl font-bold mt-4">🏅 대회 경품</h3>
-    <ul class="list-disc ml-8 mt-2 text-sm md:text-base">
+    <ul class="list-disc ml-6 md:ml-8 mt-2 text-sm md:text-base">
       <li class="my-2">
         <span class="text-base md:text-lg font-semibold">총장상</span> (1팀) -
         총장 명의의 상장 및 상금 100만원
