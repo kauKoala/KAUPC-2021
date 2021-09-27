@@ -26,13 +26,6 @@ export default {
     BaseLine: () => import("~/components/common/line"),
     Notice: () => import("~/components/notice"),
     Sponsor: () => import("~/components/sponsor")
-  },
-  computed: {
-    isMobileView() {
-      if (process.browser) {
-        return window.innerWidth < 800;
-      }
-    }
   }
 };
 </script>
