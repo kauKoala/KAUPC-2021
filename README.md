@@ -28,3 +28,4 @@ yarn dev
 - PR 제출 이전, 불필요한 `console.log()` 가 포함되어 있지는 않은지 확인해주세요.
   - (이는 불필요한 정보를 출력함과 동시에 메모리 누수의 원인이 됩니다!)
   
+- [위키](https://github.com/kauKoala/KAUPC-2021/wiki/%EB%B3%B8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%8B%A4%ED%96%89-%EB%B0%A9%EB%B2%95) 문서 기여도 환영합니다 😍
