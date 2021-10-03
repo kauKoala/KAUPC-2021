@@ -17,7 +17,7 @@
               휴학생 신분으로 제한됩니다.
             </li>
             <li class="my-4">
-              대회 상위 10명은
+              대회에서 문제를 가장 많이 푼 10인은
               <span class="font-bold text-gray-600"
                 >경인지역 연합 프로그래밍 경시대회
                 <span class="text-blue-400 font-bold">Shake!</span></span

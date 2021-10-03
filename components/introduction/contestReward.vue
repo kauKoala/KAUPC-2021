@@ -8,19 +8,18 @@
       </li>
       <li class="my-2">
         <span class="text-base md:text-lg font-semibold">대상</span> (2팀) -
-        총장 명의의 상장 및 상금 50만원
+        상금 50만원
       </li>
       <li class="my-2">
         <span class="text-base md:text-lg font-semibold">최우수상</span> (3팀) -
-        AI융합대학장 명의의 상장 및 상금 30만원
+        상금 30만원
       </li>
       <li class="my-2">
         <span class="text-base md:text-lg font-semibold">우수상</span> (4팀) -
-        소프트웨어학과장 명의의 상장 및 상금 20만원
+        상금 20만원
       </li>
       <li class="my-2">
         <span class="text-base md:text-lg font-semibold">특별상</span> (30명) -
-        치킨 기프티콘,
         <span class="naver-d2 text-naver-main">NAVER D2</span>
         티셔츠 및 스티커
       </li>
