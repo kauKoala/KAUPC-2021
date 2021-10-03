@@ -8,14 +8,14 @@
       </li>
       <li class="my-2">
         <span class="text-base md:text-lg font-semibold">본대회</span> - 2021년
-        10월 30일 (토요일) 14:00 ~ 18:00
-        <span class="text-gray-500">(4시간)</span>
+        10월 30일 (토요일) 14:00 ~ 17:00
+        <span class="text-gray-500">(3시간)</span>
       </li>
       <li class="my-2">
         <span class="text-base md:text-lg font-semibold"
-          >결과 발표 및 시상</span
+          >스코어보드 발표</span
         >
-        - 2021년 11월 중 예정
+        - 대회 종료 직후 공개
       </li>
     </ul>
   </section>

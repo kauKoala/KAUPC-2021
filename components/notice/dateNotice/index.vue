@@ -9,7 +9,7 @@
         </div>
         <div class="text-sm md:text-base">
           <span class="font-bold text-kau-main">대회일</span> : 10월 30일 (토) /
-          14:00 ~ 18:00
+          14:00 ~ 17:00
         </div>
       </section>
     </section>

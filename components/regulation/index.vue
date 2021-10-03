@@ -17,7 +17,7 @@
           <ul class="list-disc ml-6 md:ml-8 mt-2 text-sm md:text-base">
             <li class="my-4">
               본 대회는 <span class="font-bold text-kau-main">3인 1조</span>로
-              진행되며, 약 4시간동안 주어진 프로그래밍 문제를 해결하는
+              진행되며, 약 3시간동안 주어진 프로그래밍 문제를 해결하는
               대회입니다.
             </li>
             <li class="my-4">
