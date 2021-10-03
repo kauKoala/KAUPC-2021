@@ -31,6 +31,7 @@
               네이버 채용정보 관련 메일링 수신에 동의해야 합니다.
             </li>
             <li class="list-none flex justify-center my-6 mr-6">
+              <a target="_blank" :href="d2FormLink" class="flex-1 px-2 w-full">
               <button
                 class="flex justify-center items-center hover:scale-105 transition-all bg-naver-main px-5 py-2 text-white rounded-md shadow-lg w-64 lg:w-80 lg:text-lg"
               >
@@ -41,13 +42,14 @@
                   class="mr-3 rounded-sm"
                 />
                 <span>Naver D2 메일링 신청하기</span>
-              </button>
+              </button></a>
             </li>
             <li class="my-4">
               참가 접수는 10월 27일(수) 자정까지 가능하며, 접수 마감기한을 넘긴
               경우에는 대회 참여가 어려울 수 있습니다.
             </li>
             <li class="list-none flex justify-center my-6 mr-6">
+              <a target="_blank" :href="googleFormLink" class="flex-1 px-2 w-full">
               <button
                 class="flex justify-center items-center hover:scale-105 transition-all bg-blue-500 px-5 py-2 text-gray-50 rounded-md shadow-lg w-64 lg:w-80 lg:text-lg"
               >
@@ -58,7 +60,7 @@
                   class="mr-3 rounded-sm"
                 />
                 <span>KAUPC 2021 접수하기</span>
-              </button>
+              </button></a>
             </li>
           </ul>
         </section>
@@ -69,6 +71,7 @@
 
 <script>
 import checkMobileView from "~/utils/checkMobileView";
+import { GOOGLE_FORM_LINK, D2_FORM_LINK } from "~/config/constants";
 
 export default {
   name: "apply",
@@ -80,7 +83,11 @@ export default {
     isMobile() {
       return checkMobileView();
     }
-  }
+  },
+  data: () => ({
+    d2FormLink: D2_FORM_LINK,
+    googleFormLink: GOOGLE_FORM_LINK
+  })
 };
 </script>
 
