@@ -30,7 +30,7 @@
               >의 후원으로 진행되어, 경품 수령을 위해서는 Naver D2에서 제공하는
               네이버 채용정보 관련 메일링 수신에 동의해야 합니다.
             </li>
-            <li class="list-none flex justify-center my-6 relative right-3">
+            <li class="list-none flex justify-center my-6 relative">
               <a
                 target="_blank"
                 :href="d2FormLink"
@@ -53,7 +53,7 @@
               참가 접수는 10월 27일(수) 자정까지 가능하며, 접수 마감기한을 넘긴
               경우에는 대회 참여가 어려울 수 있습니다.
             </li>
-            <li class="list-none flex justify-center my-6 relative right-3">
+            <li class="list-none flex justify-center my-6 relative">
               <a
                 target="_blank"
                 :href="googleFormLink"
