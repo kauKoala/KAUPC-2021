@@ -104,13 +104,23 @@ body::before {
 
 .view-container {
   width: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
 }
 
 @media screen and (max-width: 800px) {
   .view-container {
-    margin: 1rem 0;
+    margin: 45px 0;
+    height: auto;
+  }
+  .view-container:first-child {
+    margin-top: 0;
+  }
+  .view-container:last-child {
+    height: auto;
+    margin-bottom: 32px;
+    padding-bottom: 100px;
   }
 
   .container {
@@ -123,9 +133,6 @@ body::before {
     margin: 0 2px;
     /* width: 100vw; */
     border-radius: 8px;
-  }
-  .container:last-child {
-    margin-bottom: 64px;
   }
   .container::before {
     content: none;

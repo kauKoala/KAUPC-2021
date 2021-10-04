@@ -1,6 +1,6 @@
 <template>
   <div
-    class="view-container hero min-h-screen flex-1 flex flex-col items-center justify-center"
+    class="view-container hero flex-1 flex flex-col items-center justify-center"
   >
     <section class="mb-7">
       <h1

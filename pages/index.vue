@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen sm:py-5">
+  <div class="w-screen">
     <Hero />
     <Introduction />
     <Regulation />

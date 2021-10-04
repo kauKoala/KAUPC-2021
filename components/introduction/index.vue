@@ -1,6 +1,6 @@
 <template>
   <div
-    class="view-container h-screen flex-1 flex flex-col items-center justify-center"
+    class="view-container flex-1 flex flex-col items-center justify-center"
     :data-aos="isMobile ? null : 'zoom-in'"
     data-aos-duration="1200"
     id="about"
