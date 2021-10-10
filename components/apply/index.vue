@@ -17,7 +17,7 @@
               휴학생 신분으로 제한됩니다.
             </li>
             <li class="my-4">
-              대회 상위 10명은
+              대회 상위 3~4팀은
               <span class="font-bold text-gray-600"
                 >경인지역 연합 프로그래밍 경시대회
                 <span class="text-blue-400 font-bold">Shake!</span></span
@@ -50,7 +50,7 @@
               </a>
             </li>
             <li class="my-4">
-              참가 접수는 10월 27일(수) 자정까지 가능하며, 접수 마감기한을 넘긴
+              참가 접수는 11월 3일(수) 자정까지 가능하며, 접수 마감기한을 넘긴
               경우에는 대회 참여가 어려울 수 있습니다.
             </li>
             <li class="list-none flex justify-center my-6 relative">
