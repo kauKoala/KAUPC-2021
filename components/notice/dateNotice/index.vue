@@ -4,11 +4,11 @@
       <NoticeTitle title="⏰ 대회 일시" />
       <section class="font-spoqa">
         <div class="text-sm md:text-base">
-          <span class="font-bold text-kau-main">접수 마감</span> : 10월 27일
-          (목) 자정
+          <span class="font-bold text-kau-main">접수 마감</span> : 11월 3일
+          (수) 자정
         </div>
         <div class="text-sm md:text-base">
-          <span class="font-bold text-kau-main">대회일</span> : 10월 30일 (토) /
+          <span class="font-bold text-kau-main">대회일</span> : 11월 6일 (토) /
           14:00 ~ 17:00
         </div>
       </section>
