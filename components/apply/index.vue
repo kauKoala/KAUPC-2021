@@ -72,6 +72,28 @@
                 </button></a
               >
             </li>
+            <li class="my-4">
+              역량관리시스템에서 신청한 후 대회에 참여한 학생에게는 마일리지 5시간이 주어집니다. ⏰
+            </li>
+            <li class="list-none flex justify-center my-6 relative">
+              <a
+                target="_blank"
+                :href="kauSkillLink"
+                class="flex-1 flex justify-center"
+              >
+                <button
+                  class="flex justify-center items-center hover:scale-105 transition-all bg-blue-500 px-5 py-2 text-gray-50 rounded-md shadow-lg w-64 lg:w-80 lg:text-lg"
+                >
+                  <img
+                    src="~/assets/image/kau_logo.jpg"
+                    width="20"
+                    alt="Apply KAU Skill"
+                    class="mr-3 rounded-sm"
+                  />
+                  <span>역량관리시스템 대회 페이지</span>
+                </button></a
+              >
+            </li>
           </ul>
         </section>
       </div>
@@ -81,7 +103,7 @@
 
 <script>
 import checkMobileView from "~/utils/checkMobileView";
-import { GOOGLE_FORM_LINK, D2_FORM_LINK } from "~/config/constants";
+import { GOOGLE_FORM_LINK, D2_FORM_LINK, KAU_SKILL_LINK } from "~/config/constants";
 
 export default {
   name: "apply",
@@ -96,7 +118,8 @@ export default {
   },
   data: () => ({
     d2FormLink: D2_FORM_LINK,
-    googleFormLink: GOOGLE_FORM_LINK
+    googleFormLink: GOOGLE_FORM_LINK,
+    kauSkillLink: KAU_SKILL_LINK
   })
 };
 </script>
