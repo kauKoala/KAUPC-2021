@@ -6,7 +6,7 @@
     <div
       class="hidden md:flex items-center justify-end absolute h-12 w-full bottom-0 bg-kau-main text-white pr-5 font-bold"
     >
-      <a :href="target" class="cursor-pointer"
+      <a :href="target" class="cursor-pointer" ref="link"
         >더 알아보기<span class="ml-2 inline-block">&#10142;</span></a
       >
     </div>
@@ -21,7 +21,11 @@ export default {
       type: String,
       default: ""
     }
-  }
+  },
+  mounted() {
+    this.$refs.link.scrollIntoView({block: 'end', inline: 'end'})
+    console.log(this.$refs.link)
+  },
 };
 </script>
 

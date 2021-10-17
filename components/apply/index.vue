@@ -25,6 +25,29 @@
               본선 진출의 기회가 주어집니다.
             </li>
             <li class="my-4">
+              역량관리시스템에서 신청한 후 대회에 참여한 학생에게는 마일리지
+              5시간이 주어집니다. ⏰
+            </li>
+            <li class="list-none flex justify-center my-6 relative">
+              <a
+                target="_blank"
+                :href="kauSkillLink"
+                class="flex-1 flex justify-center"
+              >
+                <button
+                  class="flex justify-center items-center hover:scale-105 transition-all bg-kau-main px-5 py-2 text-gray-50 rounded-md shadow-lg w-64 lg:w-80 lg:text-lg"
+                >
+                  <img
+                    src="~/assets/image/airplane.png"
+                    width="32"
+                    alt="Apply KAU Skill"
+                    class="mr-3 rounded-sm"
+                  />
+                  <span class="text-base">역량관리시스템 대회 페이지</span>
+                </button></a
+              >
+            </li>
+            <li class="my-4">
               본 대회는
               <span class="text-naver-main font-nanum font-bold">Naver D2</span
               >의 후원으로 진행되어, 경품 수령을 위해서는 Naver D2에서 제공하는
@@ -45,7 +68,7 @@
                     alt="Naver D2"
                     class="mr-3 rounded-sm"
                   />
-                  <span>Naver D2 메일링 신청하기</span>
+                  <span class="text-base">Naver D2 메일링 신청하기</span>
                 </button>
               </a>
             </li>
@@ -68,29 +91,7 @@
                     alt="Apply KAUPC 2021"
                     class="mr-3 rounded-sm"
                   />
-                  <span>KAUPC 2021 접수하기</span>
-                </button></a
-              >
-            </li>
-            <li class="my-4">
-              역량관리시스템에서 신청한 후 대회에 참여한 학생에게는 마일리지 5시간이 주어집니다. ⏰
-            </li>
-            <li class="list-none flex justify-center my-6 relative">
-              <a
-                target="_blank"
-                :href="kauSkillLink"
-                class="flex-1 flex justify-center"
-              >
-                <button
-                  class="flex justify-center items-center hover:scale-105 transition-all bg-blue-500 px-5 py-2 text-gray-50 rounded-md shadow-lg w-64 lg:w-80 lg:text-lg"
-                >
-                  <img
-                    src="~/assets/image/kau_logo.jpg"
-                    width="20"
-                    alt="Apply KAU Skill"
-                    class="mr-3 rounded-sm"
-                  />
-                  <span>역량관리시스템 대회 페이지</span>
+                  <span class="text-base">KAUPC 2021 접수하기</span>
                 </button></a
               >
             </li>
@@ -103,7 +104,11 @@
 
 <script>
 import checkMobileView from "~/utils/checkMobileView";
-import { GOOGLE_FORM_LINK, D2_FORM_LINK, KAU_SKILL_LINK } from "~/config/constants";
+import {
+  GOOGLE_FORM_LINK,
+  D2_FORM_LINK,
+  KAU_SKILL_LINK
+} from "~/config/constants";
 
 export default {
   name: "apply",
