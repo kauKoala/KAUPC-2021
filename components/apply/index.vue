@@ -13,15 +13,15 @@
           <h2 class="text-xl font-bold">✅ 참가자 유의사항</h2>
           <ul class="list-disc ml-6 md:ml-8 mt-2 text-sm md:text-base">
             <li class="my-4">
-              본 대회는 대학원생의 참여가 불가능하며, 한국항공대학교 학부 재학 &
-              휴학생 신분으로 제한됩니다.
+              본 대회는 대학원생의 참여가 불가능하며, 한국항공대학교 학부 <span class="text-kau-main underline font-semibold">재학 &
+              휴학생</span> 신분으로 제한됩니다.
             </li>
             <li class="my-4">
               대회 상위 3~4팀은
-              <span class="font-bold text-gray-600"
+              <a href="http://shake.codes/" target="_blank"><span class="font-bold text-gray-600"
                 >경인지역 연합 프로그래밍 경시대회
                 <span class="text-blue-400 font-bold">Shake!</span></span
-              >
+              ></a>
               본선 진출의 기회가 주어집니다.
             </li>
             <li class="my-4">
@@ -43,7 +43,7 @@
                     alt="Apply KAU Skill"
                     class="mr-3 rounded-sm"
                   />
-                  <span class="text-sm lg:text-lg">역량관리시스템 바로가기</span>
+                  <span class="text-sm lg:text-lg font-semibold">역량관리시스템 바로가기</span>
                 </button></a
               >
             </li>
@@ -68,7 +68,7 @@
                     alt="Naver D2"
                     class="mr-3 rounded-sm"
                   />
-                  <span class="text-sm lg:text-lg">Naver D2 메일링 신청하기</span>
+                  <span class="text-sm lg:text-lg font-semibold">Naver D2 메일링 신청하기</span>
                 </button>
               </a>
             </li>
@@ -91,7 +91,7 @@
                     alt="Apply KAUPC 2021"
                     class="mr-3 rounded-sm"
                   />
-                  <span class="text-sm lg:text-lg">KAUPC 2021 접수하기</span>
+                  <span class="text-sm lg:text-lg font-semibold">KAUPC 2021 접수하기</span>
                 </button></a
               >
             </li>
