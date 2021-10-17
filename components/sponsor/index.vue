@@ -8,7 +8,9 @@
           >주관 :</span
         >
         <div class="text-xs md:text-base leading-4">
-          한국항공대학교 소프트웨어학과, 한국항공대 알고리즘 학회
+          한국항공대학교 소프트웨어학과,
+          <br class="inline-block lg:hidden"/>
+          한국항공대 알고리즘 학회
           <span class="font-bold">Koala</span>
         </div>
       </li>
@@ -17,7 +19,10 @@
           >후원 :
         </span>
         <div class="flex flex-col md:flex-row items-center ml-5 md:ml-0">
-          <img src="~/assets/image/d2.png" class="mx-2 naver-img" />
+          <img
+            src="~/assets/image/d2.png"
+            class="mx-2 naver-img mb-2 lg:mb-0"
+          />
           <a href="https://startlink.io/" target="_blank"
             ><img
               src="~/assets/image/startlink.png"
