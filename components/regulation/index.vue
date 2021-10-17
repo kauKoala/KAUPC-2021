@@ -45,7 +45,7 @@
             </li>
           </ul>
         </section>
-        <img src="~/assets/image/rules.svg" class="hidden lg:inline-block absolute right-10 bottom-8" width="240"/>
+        <img src="~/assets/image/rules.svg" class="hidden xl:inline-block absolute right-10 bottom-8" width="240"/>
       </div>
     </div>
   </div>
