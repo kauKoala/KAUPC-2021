@@ -3,7 +3,7 @@
     class="sponsor-bottom text-xs md:text-sm shadow-lg mt-8 flex flex-col items-start justify-center mb-4 border rounded-md border-gray-300 pt-5 px-5 pb-3"
   >
     <ul>
-      <li class="flex items-center">
+      <li class="flex items-center mb-2">
         <span class="font-semibold border-l-4 border-kau-main pl-3 w-16"
           >주관 :</span
         >
@@ -44,7 +44,7 @@ export default {
 
 <style scoped>
 .naver-img {
-  width: 150px;
+  width: 160px;
   height: 35px;
 }
 .startlink-img {
