@@ -35,7 +35,7 @@
                 class="flex-1 flex justify-center"
               >
                 <button
-                  class="flex justify-center items-center hover:scale-105 transition-all bg-kau-main px-5 py-2 text-gray-50 rounded-md shadow-lg w-64 lg:w-80 lg:text-lg"
+                  class="flex h-10 lg:h-12 justify-center items-center hover:scale-105 transition-all bg-kau-main px-5 py-2 text-gray-50 rounded-md shadow-lg w-64 lg:w-80 lg:text-lg"
                 >
                   <img
                     src="~/assets/image/airplane.png"
@@ -43,7 +43,7 @@
                     alt="Apply KAU Skill"
                     class="mr-3 rounded-sm"
                   />
-                  <span class="text-base">역량관리시스템 대회 페이지</span>
+                  <span class="text-sm lg:text-lg">역량관리시스템 바로가기</span>
                 </button></a
               >
             </li>
@@ -60,7 +60,7 @@
                 class="flex-1 flex justify-center"
               >
                 <button
-                  class="flex justify-center items-center hover:scale-105 transition-all bg-naver-main px-5 py-2 text-white rounded-md shadow-lg w-64 lg:w-80 lg:text-lg"
+                  class="flex h-10 lg:h-12 justify-center items-center hover:scale-105 transition-all bg-naver-main px-5 py-2 text-white rounded-md shadow-lg w-64 lg:w-80 lg:text-lg"
                 >
                   <img
                     src="~/assets/image/naver.svg"
@@ -68,7 +68,7 @@
                     alt="Naver D2"
                     class="mr-3 rounded-sm"
                   />
-                  <span class="text-base">Naver D2 메일링 신청하기</span>
+                  <span class="text-sm lg:text-lg">Naver D2 메일링 신청하기</span>
                 </button>
               </a>
             </li>
@@ -83,7 +83,7 @@
                 class="flex-1 flex justify-center"
               >
                 <button
-                  class="flex justify-center items-center hover:scale-105 transition-all bg-blue-500 px-5 py-2 text-gray-50 rounded-md shadow-lg w-64 lg:w-80 lg:text-lg"
+                  class="flex h-10 lg:h-12 justify-center items-center hover:scale-105 transition-all bg-blue-500 px-5 py-2 text-gray-50 rounded-md shadow-lg w-64 lg:w-80 lg:text-lg"
                 >
                   <img
                     src="~/assets/image/trophy.svg"
@@ -91,7 +91,7 @@
                     alt="Apply KAUPC 2021"
                     class="mr-3 rounded-sm"
                   />
-                  <span class="text-base">KAUPC 2021 접수하기</span>
+                  <span class="text-sm lg:text-lg">KAUPC 2021 접수하기</span>
                 </button></a
               >
             </li>
