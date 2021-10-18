@@ -39,13 +39,20 @@
             <li class="my-4">
               대회 전 과정은 온라인으로 진행되며, 대회 관련 문의는 페이지 하단
               채널톡 또는
-              <a href="https://open.kakao.com/o/gGuX4QBd"
+              <a
+                href="https://open.kakao.com/o/gGuX4QBd"
+                target="_blank"
+                class="text-kau-main underline font-semibold"
                 >대회 운영 오픈채팅방</a
               >을 통해 건의할 수 있습니다.
             </li>
           </ul>
         </section>
-        <img src="~/assets/image/rules.svg" class="hidden xl:inline-block absolute right-10 bottom-8" width="240"/>
+        <img
+          src="~/assets/image/rules.svg"
+          class="hidden xl:inline-block absolute right-10 bottom-8"
+          width="240"
+        />
       </div>
     </div>
   </div>
