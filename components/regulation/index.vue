@@ -37,13 +37,12 @@
               기타 명시되지 않은 사항은 운영진의 판단에 따라 결정할 수 있습니다.
             </li>
             <li class="my-4">
-              대회 전 과정은 온라인으로 진행되며, 대회 관련 문의는 페이지 하단
-              채널톡 또는
+              대회 전 과정은 온라인으로 진행되며, 대회 관련 문의는
               <a
                 href="https://open.kakao.com/o/gGuX4QBd"
                 target="_blank"
                 class="text-kau-main underline font-semibold"
-                >대회 운영 오픈채팅방</a
+                >대회 운영 카카오톡 오픈채팅방</a
               >을 통해 건의할 수 있습니다.
             </li>
           </ul>
