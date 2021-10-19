@@ -25,8 +25,7 @@
               본선 진출의 기회가 주어집니다.
             </li>
             <li class="my-4">
-              역량관리시스템에서 신청한 후 대회에 참여한 학생에게는 마일리지
-              5시간이 주어집니다. ⏰
+              역량관리시스템에서 신청한 후 대회에 참여한 학생에게는 마일리지가 주어집니다. ⏰
             </li>
             <li class="list-none flex justify-center my-6 relative">
               <a
