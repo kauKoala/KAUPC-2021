@@ -9,7 +9,8 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '제 1회 한국항공대 프로그래망 경진대회' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { property: "og:image", content: "https://user-images.githubusercontent.com/26535030/138441137-e01e971a-e05f-490b-be19-40fe02de23aa.png" }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
