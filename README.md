@@ -1,8 +1,6 @@
 # 2021 KAUPC
 ## 제 1회 한국항공대학교 프로그래밍 경진대회 홍보 페이지
 
-*팀 구성, 또는 대회 관련 사항 관련해서 미정인 부분이 많습니다! 대회 관계자가 아니면 참고할 때 주의해주세요!*
-
 [홈페이지 링크](https://kaupc2021.netlify.app/)
 
 ![이미지](https://user-images.githubusercontent.com/26535030/134853951-29fbdab5-00d4-4b0a-adbd-5332f6b5713d.png)
